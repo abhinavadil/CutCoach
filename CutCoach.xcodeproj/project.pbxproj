@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* CutCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* CutCoachApp.swift */; };
+		A1000002 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* DesignSystem.swift */; };
+		A1000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* Models.swift */; };
+		A1000004 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* AppViewModel.swift */; };
+		A1000005 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* MainTabView.swift */; };
+		A1000006 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* Extensions.swift */; };
+		A1000007 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* OnboardingView.swift */; };
+		A1000008 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* DashboardView.swift */; };
+		A1000009 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* CheckInView.swift */; };
+		A1000010 /* MacroTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* MacroTrackerView.swift */; };
+		A1000011 /* TrainerPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000011 /* TrainerPlanView.swift */; };
+		A1000012 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000012 /* ProgressView.swift */; };
+		A1000013 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000013 /* CoachView.swift */; };
+		A1000014 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* HabitsView.swift */; };
+		A1000015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000015 /* SettingsView.swift */; };
+		F78364162F5F83E1009C1F3F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78364152F5F83E1009C1F3F /* NotificationManager.swift */; };
+		F78364182F5F83E3009C1F3F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78364172F5F83E3009C1F3F /* HealthKitManager.swift */; };
+		F783641A2F5F83E3009C1F3F /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78364192F5F83E3009C1F3F /* BackgroundTaskManager.swift */; };
+		F783641C2F5F83E8009C1F3F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783641B2F5F83E8009C1F3F /* DataService.swift */; };
+		F783641E2F5F84FE009C1F3F /* WidgetDataWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783641D2F5F84FE009C1F3F /* WidgetDataWriter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000001 /* CutCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCoachApp.swift; sourceTree = "<group>"; };
+		B1000002 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		B1000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1000004 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B1000005 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B1000006 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B1000007 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1000008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B1000009 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		B1000010 /* MacroTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroTrackerView.swift; sourceTree = "<group>"; };
+		B1000011 /* TrainerPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerPlanView.swift; sourceTree = "<group>"; };
+		B1000012 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		B1000013 /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+		B1000014 /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		B1000015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1000001 /* CutCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78364152F5F83E1009C1F3F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		F78364172F5F83E3009C1F3F /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		F78364192F5F83E3009C1F3F /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		F783641B2F5F83E8009C1F3F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F783641D2F5F84FE009C1F3F /* WidgetDataWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataWriter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1000000 = {
+			isa = PBXGroup;
+			children = (
+				E1000001 /* CutCoach */,
+				E1000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1000001 /* CutCoach */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* CutCoachApp.swift */,
+				B1000005 /* MainTabView.swift */,
+				B1000006 /* Extensions.swift */,
+				E1000002 /* Models */,
+				E1000003 /* ViewModels */,
+				E1000004 /* Views */,
+				E1000009 /* Components */,
+				F78364152F5F83E1009C1F3F /* NotificationManager.swift */,
+				F78364172F5F83E3009C1F3F /* HealthKitManager.swift */,
+				F78364192F5F83E3009C1F3F /* BackgroundTaskManager.swift */,
+				F783641B2F5F83E8009C1F3F /* DataService.swift */,
+				F783641D2F5F84FE009C1F3F /* WidgetDataWriter.swift */,
+			);
+			path = CutCoach;
+			sourceTree = "<group>";
+		};
+		E1000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000003 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1000003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1000004 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1000005 /* Onboarding */,
+				E1000006 /* Dashboard */,
+				E1000007 /* Other Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1000005 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B1000007 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E1000006 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B1000008 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E1000007 /* Other Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000009 /* CheckInView.swift */,
+				B1000010 /* MacroTrackerView.swift */,
+				B1000011 /* TrainerPlanView.swift */,
+				B1000012 /* ProgressView.swift */,
+				B1000013 /* CoachView.swift */,
+				B1000014 /* HabitsView.swift */,
+				B1000015 /* SettingsView.swift */,
+			);
+			name = "Other Views";
+			sourceTree = "<group>";
+		};
+		E1000009 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1000002 /* DesignSystem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E1000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* CutCoach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1000001 /* CutCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G1000001 /* Build configuration list for PBXNativeTarget "CutCoach" */;
+			buildPhases = (
+				D1000001 /* Frameworks */,
+				F1000002 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutCoach;
+			productName = CutCoach;
+			productReference = C1000001 /* CutCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H1000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F1000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G1000002 /* Build configuration list for PBXProject "CutCoach" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1000000;
+			productRefGroup = E1000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1000001 /* CutCoach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* CutCoachApp.swift in Sources */,
+				A1000002 /* DesignSystem.swift in Sources */,
+				A1000003 /* Models.swift in Sources */,
+				A1000004 /* AppViewModel.swift in Sources */,
+				F783641A2F5F83E3009C1F3F /* BackgroundTaskManager.swift in Sources */,
+				A1000005 /* MainTabView.swift in Sources */,
+				F783641C2F5F83E8009C1F3F /* DataService.swift in Sources */,
+				A1000006 /* Extensions.swift in Sources */,
+				F78364162F5F83E1009C1F3F /* NotificationManager.swift in Sources */,
+				A1000007 /* OnboardingView.swift in Sources */,
+				A1000008 /* DashboardView.swift in Sources */,
+				A1000009 /* CheckInView.swift in Sources */,
+				F783641E2F5F84FE009C1F3F /* WidgetDataWriter.swift in Sources */,
+				A1000010 /* MacroTrackerView.swift in Sources */,
+				F78364182F5F83E3009C1F3F /* HealthKitManager.swift in Sources */,
+				A1000011 /* TrainerPlanView.swift in Sources */,
+				A1000012 /* ProgressView.swift in Sources */,
+				A1000013 /* CoachView.swift in Sources */,
+				A1000014 /* HabitsView.swift in Sources */,
+				A1000015 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G1000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cutcoach.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G1000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cutcoach.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		G1000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G1000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G1000001 /* Build configuration list for PBXNativeTarget "CutCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000003 /* Debug */,
+				G1000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G1000002 /* Build configuration list for PBXProject "CutCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000005 /* Debug */,
+				G1000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H1000001 /* Project object */;
+}
