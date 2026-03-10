@@ -1,6 +1,6 @@
 # Cut Coach — iOS App
 
-Premium fitness accountability app built in SwiftUI for Abhinav's fat-loss transformation.
+Premium fitness accountability app built in SwiftUI for the users fat-loss transformation.
 
 ## Architecture
 
